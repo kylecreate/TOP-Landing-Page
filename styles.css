@@ -66,8 +66,23 @@ button {
 :root {
     /* Colors */
     --clr-dark: #1f2937;
-    --clr-white: rgb(255, 255, 255);
     --clr-blue: rgb(59, 130, 246);
+    --clr-quotebox: rgb(229, 231, 235);
+    --clr-white: rgb(255, 255, 255);
+    --clr-black: rgb(0, 0, 0);
 
     /* Font */
+    --FF: 'Roboto', sans-serif;
+
+    --FW-300: 300;
+    --FW-400: 400;
+    --FW-900: 900;
+
+    --FS-16: 1rem; /* 16px */
+}
+
+/* Typography */
+.container {
+    font-family: var(--FF);
+    font-size: var(--FS-16);
 }
