@@ -73,7 +73,9 @@ button {
     --clr-text: rgb(249, 250, 248);
     --clr-secondary-text: rgb(229, 231, 235);
     --clr-blue: rgb(59, 130, 246);
+    --clr-blue2: rgb(41, 90, 169);
     --clr-quotebox: rgb(229, 231, 235);
+    --clr-placeholder-img: rgb(109, 116, 125);
     --clr-white: rgb(255, 255, 255);
     --clr-black: rgb(0, 0, 0);
 
@@ -106,6 +108,28 @@ button {
     color: var(--clr-text);
 }
 
+.hero-title {
+    font-size: var(--FS-48);
+    font-weight: var(--FW-900);
+    color: var(--clr-text);
+    line-height: 1.3;
+}
+
+.hero-desc {
+    font-size: var(--FS-18);
+    color: var(--clr-secondary-text);
+}
+
+.hero-img {
+    color: var(--clr-white);
+}
+
+.signup-btn {
+    font-size: var(--FS-18);
+    color: var(--clr-text);
+    font-weight: var(--FW-900);
+}
+
 /* General Styling */
 .navigation-container {
     background-color: var(--clr-dark-bg);
@@ -116,8 +140,8 @@ button {
 }
 
 .site-title {
-    margin-left: 20px;
-    width: 100%;
+    margin-left: 150px;
+    width: 14%;
 }
 
 .navigation {
@@ -125,5 +149,55 @@ button {
     display: flex;
     justify-content: end;
     gap: 20px;
-    margin-right: 20px;
+    margin-right: 150px;
+}
+
+.hero-container {
+    background-color: var(--clr-dark-bg);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    gap: 20px;
+    padding: 80px;
+}
+
+.hero-text-container {
+    max-width: 450px;
+}
+
+.hero-title {
+    margin-top: 30px;
+    margin-bottom: 4px;
+}
+
+.hero-desc {
+    margin-bottom: 8px;
+}
+
+.signup-btn {
+    background-color: var(--clr-blue);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+}
+
+.signup-btn:hover,
+.signup-btn:focus {
+    background-color: var(--clr-blue2);
+}
+
+.hero-image-container {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.hero-img {
+    background-color: var(--clr-placeholder-img);
+    padding: 90px;
 }
