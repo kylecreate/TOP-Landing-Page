@@ -86,11 +86,12 @@ button {
     --FW-400: 400;
     --FW-900: 900;
 
-    --FS-16: 1rem;   /* 16px */
-    --FS-18: 1.1rem; /* 18px */
-    --FS-24: 1.5rem; /* 24px */
-    --FS-48: 3rem;   /* 48px */
-    --FS-36: 2.25rem;/* 36px */
+    --FS-16: 1rem;    /* 16px */
+    --FS-18: 1.1rem;  /* 18px */
+    --FS-24: 1.5rem;  /* 24px */
+    --FS-30: 1.875rem;/* 30px */
+    --FS-36: 2.25rem; /* 36px */
+    --FS-48: 3rem;    /* 48px */
 }
 
 /* Typography */
@@ -130,6 +131,11 @@ button {
     font-weight: var(--FW-900);
 }
 
+.page-info-subtitle {
+    text-align: center;
+    font-size: var(--FS-30);
+}
+
 /* General Styling */
 .navigation-container {
     background-color: var(--clr-dark-bg);
@@ -140,8 +146,8 @@ button {
 }
 
 .site-title {
-    margin-left: 150px;
-    width: 14%;
+    margin-left: 80px;
+    width: 30%;
 }
 
 .navigation {
@@ -200,4 +206,38 @@ button {
 .hero-img {
     background-color: var(--clr-placeholder-img);
     padding: 90px;
+}
+
+.page-info-subtitle {
+    margin-bottom: 20px;
+}
+
+.cards {
+    padding: 40px;
+}
+
+.card-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 18%;
+}
+
+.card-image {
+    height: 120px;
+    width: 120px;
+    border: 3px solid var(--clr-blue);
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-bottom: 4px;
+}
+
+.card-text {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
 }
