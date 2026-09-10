@@ -150,6 +150,25 @@ button {
     font-weight: var(--FW-900);
 }
 
+.cta-title {
+    font-size: var(--FS-30);
+    font-weight: var(--FW-900);
+    color: var(--clr-white);
+}
+
+.cta-subtext {
+    color: var(--clr-white);
+}
+
+.cta-btn {
+    font-weight: var(--FW-900);
+}
+
+.footer-text {
+    color: var(--clr-white);
+    text-align: center;
+}
+
 /* General Styling */
 .navigation-container {
     background-color: var(--clr-dark-bg);
@@ -268,4 +287,41 @@ button {
 
 .quote-author {
     margin-left: 750px;
+}
+
+.cta-container {
+    padding: 100px;
+    border: 5px solid pink;
+    display: flex;
+}
+
+.cta-info {
+    background-color: var(--clr-blue);
+    margin: 0 auto;
+    padding: 40px;
+    width: 800px;
+    border-radius: 12px;
+    display: flex;
+}
+
+.cta-text {
+    margin-right: 100px;
+}
+
+.cta-btn {
+    border: none;
+    background: none;
+    color: white;
+    font-weight: var(--FW-400);
+    border: 3px solid var(--clr-white);
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.footer-container {
+    background-color: var(--clr-dark-bg);
+    padding: 50px;
 }
